@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Calendar from 'react-calendar';
-import { format, addDays, isSameDay, isAfter, isBefore } from 'date-fns';
+import { format, addDays, isAfter, isBefore } from 'date-fns';
 import { es } from 'date-fns/locale';
 import { Clock, DollarSign } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
